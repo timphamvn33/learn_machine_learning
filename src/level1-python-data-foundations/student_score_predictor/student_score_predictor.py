@@ -64,6 +64,20 @@ def main():
     model = train_model(x_train, y_train)
     results = evaluate_model(model, x_test, y_test)
 
+    # need the output for len of x_train, x_test, mse, mae, r2, get slope, inercept
+
+    print(f"len of x_train: {x_train}")
+    print(f"len of x_test: {x_test}")
+    print(f"model square error: {results['mse']:.2f}")
+    print(f"model absolute error: {results['mae']:.2f}")
+    print(f"model r2 score: {results['r2']}")
+    print(f"model slope: {model.coef_[0]:.2f}")
+    print(f"model intercept: {model.intercept_:.2f}")
+
+    hours = float(input("Enter the number of hours studied: "))
+
+    print(f"Predicted score for studying {hours} hours: {predict_score(model, hours):.2f}")
+
 if __name__ == "__main__":
     main()
 
