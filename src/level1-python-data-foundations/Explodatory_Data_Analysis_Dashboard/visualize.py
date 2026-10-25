@@ -25,10 +25,19 @@ def plot_exam_score_distribution(df):
 def plot_study_hours_vs_score(df):
     plt.figure(figsize=(8, 5))
 
+    # sns.scatterplot(
+    #     data=df,
+    #     x="hours_studied",
+    #     y="exam_score",
+    # )
+
     sns.regplot(
         data=df,
         x="hours_studied",
         y="exam_score",
+        ci=None,
+        scatter_kws={"s": 60},
+        line_kws={"color": "red"}
     )
 
     plt.title("Study Hours vs Exam Score")
