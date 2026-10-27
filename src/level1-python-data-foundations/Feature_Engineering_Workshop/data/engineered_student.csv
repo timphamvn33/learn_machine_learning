@@ -1,0 +1,11 @@
+hours_studied,attendance,previous_score,sleep_hours,exam_score,attendance_rate,study_hours_squared,previous_score_band_low,previous_score_band_medium,previous_score_band_high
+1,60,45,5,50,0.6,1,1,0,0
+2,65,50,6,55,0.65,4,1,0,0
+3,70,55,7,65,0.7,9,1,0,0
+4,75,60,6,70,0.75,16,0,1,0
+5,80,65,8,75,0.8,25,0,1,0
+6,85,70,7,85,0.85,36,0,1,0
+7,90,75,8,90,0.9,49,0,0,1
+2,68,52,5,58,0.68,4,1,0,0
+4,78,62,7,72,0.78,16,0,1,0
+6,88,72,8,86,0.88,36,0,1,0
