@@ -1,0 +1,9 @@
+customer_id,name,age,monthly_income,signup_date,city,subscribed
+101,Alice Johnson,29.0,4500.0,2026-01-05,Atlanta,True
+102,Bob Smith,34.0,5200.0,2026-01-06,Warner Robins,False
+103,Carol Lee,,4800.0,2026-01-07,Macon,True
+104,David Kim,41.0,,2026-01-08,Atlanta,False
+105,Emily Chen,28.0,3900.0,,Savannah,True
+106,Frank Jones,,6100.0,2026-01-10,Macon,False
+107,Grace Hall,32.0,,2026-01-11,,True
+108,Henry Diaz,45.0,7000.0,2026-01-12,Warner Robins,

@@ -1,0 +1,11 @@
+
+customer_id,name,age,monthly_income,signup_date,city,subscribed
+101," Alice Johnson ",29,4500,2026-01-05," atlanta ",Yes
+102,Bob Smith,34,5200,2026-01-06,Warner Robins,No
+103,Carol Lee,,4800,2026-01-07,Macon,yes
+104,David Kim,41,not available,2026-01-08,atlanta,No
+105,Emily Chen,28,3900,bad-date," Savannah ",YES
+106,Frank Jones,200,6100,2026-01-10,Macon,No
+107,Grace Hall,32,,2026-01-11,,Yes
+107,Grace Hall,32,,2026-01-11,,Yes
+108,Henry Diaz,45,7000,2026-01-12,warner robins,maybe
